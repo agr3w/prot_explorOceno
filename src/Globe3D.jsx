@@ -1,12 +1,14 @@
 import React, { useState } from 'react'
-import { Canvas } from '@react-three/fiber'
+import { Canvas, useLoader } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
+import * as THREE from 'three'
 
 function Globe() {
+  const earthTexture = useLoader(THREE.TextureLoader, '/src/assets/earthmap1k.jpg')
   return (
     <mesh>
       <sphereGeometry args={[2, 64, 64]} />
-      <meshStandardMaterial color="#1e90ff" />
+      <meshStandardMaterial map={earthTexture} />
     </mesh>
   )
 }
