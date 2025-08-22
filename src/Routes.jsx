@@ -1,8 +1,8 @@
-import Globe3D from './Globe3D'
+import Home from './Home'
 
 function Routes() {
   return (
-    <Globe3D />
+    <Home />
   )
 }
 
