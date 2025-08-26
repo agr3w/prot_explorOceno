@@ -94,6 +94,7 @@ export default function Globe3D() {
       {showCard && (
         <div
           style={{
+            color: 'black',
             position: 'absolute',
             top: 40,
             left: 40,
