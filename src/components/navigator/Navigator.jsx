@@ -2,9 +2,9 @@ import React from 'react'
 import { AppBar, Toolbar, Button, Box } from '@mui/material'
 import MenuIcon from '@mui/icons-material/Menu'
 
-export default function Header() {
+export default function Navigator() {
   return (
-    <AppBar position="static" sx={{ background: '#36d1e0', boxShadow: 'none' }}>
+    <AppBar position="fixed" sx={{ background: '#36d1e0', boxShadow: 'none' }}>
       <Toolbar sx={{ minHeight: 56, display: 'flex', justifyContent: 'space-between' }}>
         <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
           <Button
