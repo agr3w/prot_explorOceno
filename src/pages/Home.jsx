@@ -10,6 +10,8 @@ export default function Home() {
   // Use o hook para obter o estado 'scrolled'
   const scrolled = useScrollEffect(100);
 
+  // const welcomeMessage = import.meta.env.VITE_WELCOME_MESSAGE; utilizando variaveis de ambiente
+
   return (
     <>
       <NavigatorTransparent />
