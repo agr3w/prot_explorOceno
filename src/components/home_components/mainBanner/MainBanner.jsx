@@ -6,7 +6,7 @@ export default function MainBanner() {
 
     useEffect(() => {
         const onScroll = () => {
-            // Quando o scroll passa de 200px, ativa o efeito de mergulho
+            // Quando o scroll passa de 100px, ativa o efeito de mergulho
             setDiving(window.scrollY > 100)
         }
         window.addEventListener('scroll', onScroll)
@@ -17,7 +17,7 @@ export default function MainBanner() {
         <Box
             sx={{
                 position: 'relative',
-                width: diving ? '100vw' : 'calc(100vw - 48px)',
+                width: diving ? '100%' : 'calc(100vw - 48px)',
                 height: diving ? '100vh' : '80vh',
                 margin: diving ? 0 : '24px auto',
                 borderRadius: diving ? 0 : 4,
@@ -60,8 +60,8 @@ export default function MainBanner() {
             {/* Botão na parte inferior, fixo quando mergulhado */}
             <Box
                 sx={{
-                    position: diving ? 'fixed' : 'absolute',
-                    bottom: diving ? 32 : 32,
+                    position: 'absolute',
+                    bottom: 32,
                     left: 0,
                     width: '100%',
                     display: 'flex',
