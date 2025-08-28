@@ -1,6 +1,6 @@
 import react from 'react';
 import { Box, Typography } from '@mui/material';
-import { aboutData } from '../../../../content/home_content/aboutContent';
+import { aboutData } from '../../../../content/homeContent/aboutContent';
 
 
 export default function AboutHighlights() {
