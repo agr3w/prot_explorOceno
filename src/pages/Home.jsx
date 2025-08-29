@@ -4,11 +4,12 @@ import NavigatorTransparent from '../components/navigator/NavigatorTransparent';
 import Navigator from '../components/navigator/Navigator';
 import MainBanner from '../components/home_components/mainBanner/MainBanner';
 import AboutSection from '../components/home_components/aboutSection/AboutSection';
-import useScrollEffect from '../hooks/useScrollEffect';
+import useDiving from '../hooks/useDiving';
+import IntroVideoSection from '../components/home_components/introVideo/IntroVideoSection';
 
 export default function Home() {
   // Use o hook para obter o estado 'scrolled'
-  const scrolled = useScrollEffect(100);
+  const scrolled = useDiving(100);
 
   // const welcomeMessage = import.meta.env.VITE_WELCOME_MESSAGE; utilizando variaveis de ambiente
 
@@ -22,6 +23,7 @@ export default function Home() {
       </Fade>
       <MainBanner />
       <AboutSection />
+      <IntroVideoSection />
     </>
   );
 }

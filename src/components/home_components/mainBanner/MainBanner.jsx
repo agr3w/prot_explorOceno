@@ -18,7 +18,7 @@ export default function MainBanner() {
                 overflow: 'hidden',
                 boxShadow: diving ? 'none' : '0 2px 16px rgba(0,0,0,0.15)',
                 transition: 'all 0.6s cubic-bezier(.77,0,.18,1)',
-                background: 'url("/src/assets/earthmap1k.jpg") center/cover, #1032ccff',
+                background: 'url("/src/assets/earthmap1k.jpg") center/cover, #1032ccff', // IMAGEM DE FUNDO
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'center',
