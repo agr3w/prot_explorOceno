@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Fade } from '@mui/material';
 import NavigatorTransparent from '../components/navigator/NavigatorTransparent';
 import Navigator from '../components/navigator/Navigator';
-import MainBanner from '../components/home_components/mainBanner/MainBanner';
+import MainBanner from '../components/home_components/mainBanner/MainBannerSection';
 import AboutSection from '../components/home_components/aboutSection/AboutSection';
 import useDiving from '../hooks/useDiving';
 import IntroVideoSection from '../components/home_components/introVideo/IntroVideoSection';
