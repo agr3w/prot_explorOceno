@@ -6,6 +6,9 @@ import MainBanner from '../components/home_components/mainBanner/MainBannerSecti
 import AboutSection from '../components/home_components/aboutSection/AboutSection';
 import useDiving from '../hooks/useDiving';
 import IntroVideoSection from '../components/home_components/introVideo/IntroVideoSection';
+import LearningPathsSection from '../components/home_components/LearningPaths/LearningPathsSection ';
+import DeepDiveSection from '../components/home_components/DeepDive/DeepDiveSection';
+import Footer from '../components/footer/footer';
 
 export default function Home() {
   // Use o hook para obter o estado 'scrolled'
@@ -24,6 +27,9 @@ export default function Home() {
       <MainBanner />
       <AboutSection />
       <IntroVideoSection />
+      <LearningPathsSection />
+      <DeepDiveSection />
+      <Footer depth={2} />
     </>
   );
 }
