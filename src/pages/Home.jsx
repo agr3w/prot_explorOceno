@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from 'react';
 import { Fade } from '@mui/material';
 import NavigatorTransparent from '../components/navigator/NavigatorTransparent';
 import Navigator from '../components/navigator/Navigator';
