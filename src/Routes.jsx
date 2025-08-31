@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import { quizzesData } from "./content/contentGrid/quizzesContent";
 import { documentariesData } from "./content/contentGrid/documentariesContent";
 import ContentPageTemplate from "./pages/ContentPageTemplate";
+import ContentHub from "./pages/ContentHub";
 
 function AppRoutes() {
   return (
@@ -31,6 +32,7 @@ function AppRoutes() {
             />
           }
         ></Route>
+        <Route exact path="/hub" element={<ContentHub />} />
       </Routes>
     </Router>
   );
