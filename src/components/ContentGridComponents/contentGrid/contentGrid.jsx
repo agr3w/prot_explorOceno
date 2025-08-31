@@ -41,7 +41,7 @@ const ContentGrid = ({ title, description, items }) => {
       <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
         {description}
       </Typography>
-      <Grid container spacing={4} justifyContent="center" alignItems="stretch">
+      <Grid container spacing={{ xs: 2, sm: 3, md: 4 }} justifyContent="center" alignItems="stretch">
         {items.map((item, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <StyledCard>

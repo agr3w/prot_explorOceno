@@ -1,4 +1,3 @@
-import react from 'react';
 import { Box, Typography } from '@mui/material';
 import { aboutData } from '../../../../content/homeContent/aboutContent';
 
