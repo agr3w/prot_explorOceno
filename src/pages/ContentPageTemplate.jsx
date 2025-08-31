@@ -28,7 +28,8 @@ export default function ContentPageTemplate({ data, title, description }) {
             minWidth: 200,
             display: { xs: "none", md: "block" },
             marginRight: 4, 
-            alignContent: "center",
+            marginTop: 25,
+            alignContent: "flex-start",
           }}
         >
           <CategoryFilter

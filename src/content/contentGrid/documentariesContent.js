@@ -23,4 +23,48 @@ export const documentariesData = [
     icon: "🎥",
     duration: "45min"
   },
+  {
+    category: "Biologia Marinha",
+    label: "Ponto NEMO",
+    shortDescription: "Conheça o local mais inacessível da Terra e os mistérios de sua biologia marinha.",
+    link: "link-para-o-documentario",
+    imageUrl: "/src/assets/earthmap1k.jpg", // Adicione o caminho para a sua imagem
+    rating: "5.0",
+    tags: ["Oceanografia", "Biologia"],
+    icon: "🎥",
+    duration: "45min"
+  },
+  {
+    category: "Biologia Marinha",
+    label: "Ponto NEMO",
+    shortDescription: "Conheça o local mais inacessível da Terra e os mistérios de sua biologia marinha.",
+    link: "link-para-o-documentario",
+    imageUrl: "/src/assets/earthmap1k.jpg", // Adicione o caminho para a sua imagem
+    rating: "5.0",
+    tags: ["Oceanografia", "Biologia"],
+    icon: "🎥",
+    duration: "45min"
+  },
+  {
+    category: "Biologia Marinha",
+    label: "Ponto NEMO",
+    shortDescription: "Conheça o local mais inacessível da Terra e os mistérios de sua biologia marinha.",
+    link: "link-para-o-documentario",
+    imageUrl: "/src/assets/earthmap1k.jpg", // Adicione o caminho para a sua imagem
+    rating: "5.0",
+    tags: ["Oceanografia", "Biologia"],
+    icon: "🎥",
+    duration: "45min"
+  },
+  {
+    category: "Biologia Marinha",
+    label: "Ponto NEMO",
+    shortDescription: "Conheça o local mais inacessível da Terra e os mistérios de sua biologia marinha.",
+    link: "link-para-o-documentario",
+    imageUrl: "/src/assets/earthmap1k.jpg", // Adicione o caminho para a sua imagem
+    rating: "5.0",
+    tags: ["Oceanografia", "Biologia"],
+    icon: "🎥",
+    duration: "45min"
+  },
 ];

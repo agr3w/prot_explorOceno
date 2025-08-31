@@ -19,7 +19,7 @@ const StyledCard = styled(Card)(({ theme }) => ({
 }));
 
 const CardMediaWrapper = styled(Box)(({ imageUrl }) => ({
-  height: 200, // Altura fixa para a imagem
+  height: 200,
   width: '100%',
   background: `url(${imageUrl}) center/cover`,
   borderTopLeftRadius: '16px',
@@ -41,9 +41,9 @@ const ContentGrid = ({ title, description, items }) => {
       <Typography variant="h6" color="text.secondary" sx={{ mb: 4 }}>
         {description}
       </Typography>
-      <Grid container spacing={{ xs: 2, sm: 3, md: 4 }} justifyContent="center" alignItems="stretch">
+      <Grid container spacing={{ xs: 2, sm: 3, md: 4 }} justifyContent="center" alignItems="stretch" >
         {items.map((item, index) => (
-          <Grid item xs={12} sm={6} md={4} key={index}>
+          <Grid item xs={12} sm={6} md={4} key={index} sx={{width: '450px'}}>
             <StyledCard>
               <CardMediaWrapper imageUrl={item.imageUrl}>
                 {/* Rótulo de avaliação (rating) */}
