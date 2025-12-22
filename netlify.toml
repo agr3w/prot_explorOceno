@@ -1,22 +1,15 @@
 [build]
-  command = "npx prisma generate && vite build"
-  publish = "dist"
-  functions = "netlify/functions"
+command = "npx prisma generate && npm run build"
+publish = "dist"
 
 [build.environment]
 NODE_VERSION = "20.19.0"
 
 [functions]
-  node_bundler = "esbuild"
+  directory = "Netlify/functions"
 
-# Regra 1: API (Mais específica - VEM PRIMEIRO)
+
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
-  status = 200
-
-# Regra 2: React SPA (Genérica - VEM POR ÚLTIMO)
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
   status = 200
